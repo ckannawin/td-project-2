@@ -23,6 +23,7 @@ h2 {
     margin: 50px 0;
 }
 
+
 section, footer, nav {
     background-color: #fffff0;
 }
@@ -49,6 +50,7 @@ nav {
 
 h1 {
     font-size: 2em;
+    color: teal;
 }
 nav ul {
     width: 90%;
@@ -83,7 +85,8 @@ header {
 }
 
 #portfolio,
-#contact  {
+#contact,
+#skills  {
     text-align: center;
     width: 90%;
     margin: 25px auto;
@@ -103,6 +106,19 @@ header {
     width: 75%;
     margin: 15px auto;
 }
+#skills{
+    text-align: center;
+}
+#skills ul{
+    list-style-type: none;
+}
+.card-graphic{
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px auto;
+  }
 #contact p {
     width: 75%;
     margin: 20px auto;
